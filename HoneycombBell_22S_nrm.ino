@@ -61,7 +61,7 @@ void setup()
 
 #ifdef USE_ADA88
   ada88_init();
-  ada88_write(1);
+  ada88_write(19);
 #endif
 
   //  Read Jumper Pin Setting
